@@ -38,10 +38,16 @@
     }
 
     .grid {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 16px;
-    }
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+}
 
     .day-card, .info-card {
       background: white;
@@ -181,7 +187,7 @@
 </section>
     <section>
       <h2>Schedule and Course Materials</h2>
-      <div class="grid">
+      <div class="schedule-grid">
 
         <article class="day-card">
           <h3>Monday</h3>
