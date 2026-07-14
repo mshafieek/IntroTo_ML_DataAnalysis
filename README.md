@@ -1,2 +1,2 @@
-# my-course-site
-This is for my course intro to machine learning and data analysis
+# Introduction to Machine Learning and Data Analysis
+Welcome!
